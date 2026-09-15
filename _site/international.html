@@ -21,18 +21,17 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        <a href="{{ page.translation | default: '/en/index.html' }}" class="lang-toggle">
-            {% if page.lang == "en" %}
-                <img src="/images/danish-flag.svg" alt="Skift til dansk" height="24">
-            {% else %}
+        <a href="/en/index.html" class="lang-toggle">
+            
                 <img src="/images/english-flag.svg" alt="Switch to English" height="24">
-            {% endif %}
+            
         </a>
     </header>
 
     <div class="main">
 
-        {{ content }}
+        
+
 
     </div>
 </body>

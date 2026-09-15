@@ -21,18 +21,43 @@
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        <a href="{{ page.translation | default: '/en/index.html' }}" class="lang-toggle">
-            {% if page.lang == "en" %}
+        <a href="/index.html" class="lang-toggle">
+            
                 <img src="/images/danish-flag.svg" alt="Skift til dansk" height="24">
-            {% else %}
-                <img src="/images/english-flag.svg" alt="Switch to English" height="24">
-            {% endif %}
+            
         </a>
     </header>
 
     <div class="main">
 
-        {{ content }}
+        <p> Welcome to ESCC — a journey through the world of drinking games </p>
+
+
+<table class="table-table-striped" width="100%">
+    <thead>
+        <tr>
+            <th class="Spil"><strong>Game </strong></th>
+            <th class="Ølrating"><strong>Beer rating </strong></th>
+            <th class="Tid"><em><strong>Time</strong></em></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="Spil"><strong>Frostbox</strong></td>
+            <td class="Ølrating">3</td>
+            <td class="Tid">30</td>
+
+        </tr>
+        <tr>
+            <td class="Spil"><strong>Jagt</strong></td>
+            <td class="Ølrating">3-10</td>
+            <td class="Tid">10+</td>
+
+        </tr>
+    </tbody>
+
+</table>
+
 
     </div>
 </body>
