@@ -109,6 +109,26 @@ ul li a:hover {
 }
 
 
+/*FLex box*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flex-item {
+
+    background-color: #f7f6f2;
+    box-sizing: border-box;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+
+}
+
 
 /* Table styles */
 
